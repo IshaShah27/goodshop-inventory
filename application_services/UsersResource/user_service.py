@@ -17,5 +17,5 @@ class UserResource(BaseRDBApplicationResource):
 
     @classmethod
     def get_all_product_data(cls):
-        res = RDBService.get_full_table("ProductInfo", "ProductInfo")
+        res = RDBService.get_full_table("productInfo", "productInfo")
         return res
