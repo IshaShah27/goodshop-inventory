@@ -16,6 +16,6 @@ class UserResource(BaseRDBApplicationResource):
         return 'aaaaaF21E6156', 'users'
 
     @classmethod
-    def get_all_user_data(cls):
-        res = RDBService.get_full_table("UsersInfo", "UsersInfo")
+    def get_all_product_data(cls):
+        res = RDBService.get_full_table("ProductInfo", "ProductInfo")
         return res

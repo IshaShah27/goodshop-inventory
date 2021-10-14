@@ -27,9 +27,9 @@ def get_artists_by_prefix(prefix):
     return rsp
 
 
-@app.route('/users')
-def get_users():
-    res = UserResource.get_all_user_data()
+@app.route('/products')
+def get_products():
+    res = UserResource.get_all_product_data()
     rsp = Response(json.dumps(res), status=200, content_type="application/json")
     return rsp
 
