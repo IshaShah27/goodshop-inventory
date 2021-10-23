@@ -1,3 +1,4 @@
+DROP DATABASE IF EXISTS productInfo;
 CREATE DATABASE productInfo;
 USE productInfo;
 DROP TABLE IF EXISTS `productInfo`;
